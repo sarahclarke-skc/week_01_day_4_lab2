@@ -9,3 +9,9 @@ def likes_to_eat(person, food):
         return True
     else: 
         return False
+
+def add_friend(person, newfriend):
+    person["friends"].append(newfriend)
+
+
+
